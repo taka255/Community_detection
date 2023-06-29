@@ -1,0 +1,111 @@
+\documentclass[a4j,11pt]{jarticle}
+
+% 数式
+\usepackage{amsmath,amssymb,bm} %数式環境
+\usepackage{mathtools}
+\usepackage{physics}
+\usepackage{autobreak}
+
+% 余白の調整
+\usepackage[top=20truemm,bottom=20truemm,left=20truemm,right=20truemm]{geometry}
+
+% 画像
+\usepackage{graphicx}
+\usepackage{here}
+\usepackage[dvipdfmx]{color}
+
+% 脚注
+\usepackage[hang,small,bf]{caption}
+\usepackage[subrefformat=parens]{subcaption}
+\usepackage{comment}
+\captionsetup{compatibility=false}
+
+% 分数
+\newcommand{\f}[2]{\frac{#1}{#2}}
+
+% 括弧
+\newcommand{\Bigparen}[1]{\Bigl(#1\Bigr)}
+\newcommand{\Bigbrace}[1]{\Bigl\{#1\Bigr\}}
+\newcommand{\Bigbrac}[1]{\Bigl[#1\Bigr]}
+\newcommand{\Biggparen}[1]{\Biggl(#1\Biggr)}
+\newcommand{\Biggbrace}[1]{\Biggl\{#1\Biggr\}}
+\newcommand{\Biggbrac}[1]{\Biggl[#1\Biggr]}
+
+% argmax, argmin, 期待値, 分散
+\DeclareMathOperator*{\argmax}{argmax \:}
+\DeclareMathOperator*{\argmin}{argmin \:}
+\newcommand{\E}[1]{\mathbb{E}\qty[{#1}] } 
+\newcommand{\Var}[1]{\mathbb{V} \qty[{#1}] } 
+
+%定義イコール, 転置
+\newcommand{\defeq}{\coloneqq}
+\newcommand{\trans}[1]{#1^\mathrm{T}}
+
+%正規分布
+\newcommand{\N}[3]{\mathcal{N} ({#1}\mid{#2},{#3})}
+
+%ギリシャ文字に対する太文字
+\newcommand{\bs}[1]{\boldsymbol{#1}} 
+\newcommand{\valpha}{\boldsymbol{\alpha}} 
+\newcommand{\vbeta}{\boldsymbol{\beta}} 
+\newcommand{\vgamma}{\boldsymbol{\gamma}} 
+\newcommand{\vdelta}{\boldsymbol{\delta}} 
+\newcommand{\vepsilon}{\boldsymbol{\epsilon}} 
+\newcommand{\vzeta}{\boldsymbol{\zeta}} 
+\newcommand{\veta}{\boldsymbol{\eta}} 
+\newcommand{\vtheta}{\boldsymbol{\theta}} 
+\newcommand{\viota}{\boldsymbol{\iota}} 
+\newcommand{\vkappa}{\boldsymbol{\kappa}} 
+\newcommand{\vlambda}{\boldsymbol{\lambda}} 
+\newcommand{\vnu}{\boldsymbol{\nu}} 
+\newcommand{\vxi}{\boldsymbol{\xi}} 
+\newcommand{\vomicron}{\boldsymbol{\omicron}} 
+\newcommand{\vpi}{\boldsymbol{\pi}} 
+\newcommand{\vrho}{\boldsymbol{\rho}} 
+\newcommand{\vsigma}{\boldsymbol{\sigma}} 
+\newcommand{\vtau}{\boldsymbol{\tau}} 
+\newcommand{\vupsilon}{\boldsymbol{\upsilon}} 
+\newcommand{\vphi}{\boldsymbol{\phi}} 
+\newcommand{\vchi}{\boldsymbol{\chi}} 
+\newcommand{\vpsi}{\boldsymbol{\psi}} 
+\newcommand{\vomega}{\boldsymbol{\omega}} 
+
+\newcommand{\vGamma}{\boldsymbol{\Gamma}} 
+\newcommand{\vDelta}{\boldsymbol{\Delta}} 
+\newcommand{\vTheta}{\boldsymbol{\Theta}} 
+\newcommand{\vLambda}{\boldsymbol{\Lambda}} 
+\newcommand{\vPi}{\boldsymbol{\Pi}} 
+\newcommand{\vSigma}{\boldsymbol{\Sigma}} 
+\newcommand{\vUpsilon}{\boldsymbol{\Upsilon}} 
+\newcommand{\vPhi}{\boldsymbol{\Phi}} 
+\newcommand{\vPsi}{\boldsymbol{\Psi}} 
+\newcommand{\vOmega}{\boldsymbol{\Omega}} 
+
+% 図, 表, 式の日本語参照
+\newcommand{\zu}[1]{図\ref{fig:#1}}
+\newcommand{\hyou}[1]{表\ref{tb:#1}}
+\newcommand{\shiki}[1]{式\eqref{eq:#1}}
+
+% ハイパーリンク
+\usepackage[dvipdfmx,colorlinks,linkcolor=blue,urlcolor=blue]{hyperref}
+\usepackage{pxjahyper}
+
+
+\begin{document}
+
+\title{タイトル}
+\author{筆者}
+\date{\today}
+\maketitle
+
+%　目次
+\tableofcontents
+
+\input{section1.tex}
+\input{section2.tex}
+
+
+\bibliographystyle{plain}
+\bibliography{example}
+
+\end{document}
