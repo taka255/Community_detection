@@ -1,10 +1,10 @@
-PWD /Users/takanamikaito/Documents/latex_temp
+PWD /Users/takanamikaito/Documents/Latex_template
 INPUT /usr/local/texlive/2022/texmf.cnf
 INPUT /usr/local/texlive/2022/texmf-dist/web2c/texmf.cnf
 INPUT /usr/local/texlive/2022/texmf.cnf
 INPUT /usr/local/texlive/2022/texmf-dist/web2c/texmf.cnf
 INPUT /usr/local/texlive/2022/texmf-var/web2c/eptex/platex.fmt
-INPUT /Users/takanamikaito/Documents/latex_temp/main.tex
+INPUT /Users/takanamikaito/Documents/Latex_template/main.tex
 OUTPUT out/main.log
 INPUT /usr/local/texlive/2022/texmf-dist/tex/platex/base/jarticle.cls
 INPUT /usr/local/texlive/2022/texmf-dist/tex/platex/base/jarticle.cls
