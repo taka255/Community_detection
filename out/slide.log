@@ -1,10 +1,10 @@
-This is e-pTeX, Version 3.141592653-p4.0.0-220214-2.6 (utf8.euc) (TeX Live 2022) (preloaded format=platex 2023.2.2)  26 JUN 2023 18:11
+This is e-pTeX, Version 3.141592653-p4.0.0-220214-2.6 (utf8.euc) (TeX Live 2022) (preloaded format=platex 2023.2.2)  6 DEC 2023 14:40
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/Users/takanamikaito/Documents/latex_temp/slide.tex
-(/Users/takanamikaito/Documents/latex_temp/slide.tex
+**/Users/takanamikaito/Latex_template/slide.tex
+(/Users/takanamikaito/Latex_template/slide.tex
 pLaTeX2e <2021-11-15> (based on LaTeX2e <2021-11-15> patch level 1)
 L3 programming layer <2022-02-24> (/usr/local/texlive/2022/texmf-dist/tex/latex/beamer/beamer.cls
 Document Class: beamer 2022/02/08 v3.66 A class for typesetting presentations
@@ -824,17 +824,28 @@ File: ot1mathkerncmss.fd 2020/01/31 Fontinst v1.933 font definitions for OT1/mat
 ) [3
 
 ]
-LaTeX Font Info:    Trying to load font information for TS1+cmss on input line 64.
+LaTeX Font Info:    Trying to load font information for TS1+cmss on input line 73.
 (/usr/local/texlive/2022/texmf-dist/tex/latex/base/ts1cmss.fd
 File: ts1cmss.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
+File: figure/overfit.png Graphic file (type bmp)
+<figure/overfit.png>
+LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <10> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 73.
+LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <10> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 73.
+
+Overfull \vbox (37.2317pt too high) detected at line 73
+ []
+
+[4
+
+] [5
+
+]
 File: figure/sample.png Graphic file (type bmp)
 <figure/sample.png>
-LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <10> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 64.
-LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <10> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 64.
-[4
+[6
 
 ]
 \tf@nav=\write6
@@ -851,12 +862,12 @@ Package rerunfilecheck Info: File `slide.out' has not changed.
 (rerunfilecheck)             Checksum: A3B4606EF271643D9A612C2968076DE8;51.
  ) 
 Here is how much of TeX's memory you used:
- 27539 strings out of 478724
- 558688 string characters out of 5858393
- 801441 words of memory out of 5000000
- 45405 multiletter control sequences out of 15000+600000
- 490030 words of font info for 101 fonts, out of 8000000 for 9000
+ 27592 strings out of 478724
+ 560100 string characters out of 5858393
+ 804481 words of memory out of 5000000
+ 45456 multiletter control sequences out of 15000+600000
+ 490371 words of font info for 102 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
- 128i,13n,122p,1869b,885s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 128i,13n,122p,1863b,898s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on out/slide.dvi (4 pages, 11528 bytes).
+Output written on out/slide.dvi (6 pages, 19856 bytes).

@@ -1,11 +1,12 @@
 # Fdb version 3
-["dvipdf"] 1687770686 "out/slide.dvi" "out/slide.pdf" "out/slide" 1687770693
-  "out/slide.dvi" 1687770686 11528 2608fe56fda028e7b6b0450bb4e8fd07 "latex"
+["dvipdf"] 1701841240 "out/slide.dvi" "out/slide.pdf" "out/slide" 1701841248
+  "out/slide.dvi" 1701841240 19856 704387f1eb362dd34e678a4cc66582db "latex"
   (generated)
   "out/slide.pdf"
-["latex"] 1687770685 "/Users/takanamikaito/Documents/latex_temp/slide.tex" "out/slide.dvi" "slide" 1687770693
-  "/Users/takanamikaito/Documents/latex_temp/slide.tex" 1687770674 1302 ae58e71b595c0691c188a62a86125490 ""
+["latex"] 1701841239 "/Users/takanamikaito/Latex_template/slide.tex" "out/slide.dvi" "slide" 1701841248
+  "/Users/takanamikaito/Latex_template/slide.tex" 1701841236 2874 fd1669d62bdd6ccda908a466333c0ab8 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
+  "/usr/local/texlive/2022/texmf-dist/fonts/tfm/jknappen/ec/tcss1000.tfm" 1136768653 1536 293044035fd171bb1d18cf655049b101 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/jknappen/ec/tcss1095.tfm" 1136768653 1536 f0fa079cdc83a6ffeda21e42352cf1ea ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/ptex-fonts/standard/goth10.tfm" 1463434352 1196 5981e79c37b2cfd27b3612a6783cd4b6 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/ptex-fonts/standard/min10.tfm" 1463434352 1196 1be730212205a270378fba11a44765dc ""
@@ -241,12 +242,13 @@
   "/usr/local/texlive/2022/texmf-dist/web2c/texmf.cnf" 1646502317 40171 cdab547de63d26590bebb3baff566530 ""
   "/usr/local/texlive/2022/texmf-var/web2c/eptex/platex.fmt" 1675323292 2827152 4a2f64b17039d1c48b9876b22bba735f ""
   "/usr/local/texlive/2022/texmf.cnf" 1647878952 577 209b46be99c9075fd74d4c0369380e8c ""
-  "figure/sample.png" 1687770489 2339083 9c9b5c7d0d13dfa6c1b23306720e0b81 ""
-  "out/slide.aux" 1687770686 1794 af8fbbe3f43f2f663284353f9ceb6f78 "latex"
-  "out/slide.nav" 1687770686 735 8bcd2876e94ed31b113546cc971d1852 "latex"
-  "out/slide.out" 1687770686 51 a3b4606ef271643d9a612c2968076de8 "latex"
-  "out/slide.toc" 1687770686 52 792c3bcce843d4583c8d926a5f947732 "latex"
-  "slide.tex" 1687770674 1302 ae58e71b595c0691c188a62a86125490 ""
+  "figure/overfit.png" 1701840098 877180 1ae213c7d204bb686280d65851aa5dbb ""
+  "figure/sample.png" 1701839365 2339083 9c9b5c7d0d13dfa6c1b23306720e0b81 ""
+  "out/slide.aux" 1701841240 2090 c4c070a826cfd949c28b02d5abcc6e24 "latex"
+  "out/slide.nav" 1701841240 911 774103152c129a3a36a816b2cc5595b8 "latex"
+  "out/slide.out" 1701841240 51 a3b4606ef271643d9a612c2968076de8 "latex"
+  "out/slide.toc" 1701841240 52 792c3bcce843d4583c8d926a5f947732 "latex"
+  "slide.tex" 1701841236 2874 fd1669d62bdd6ccda908a466333c0ab8 ""
   (generated)
   "out/slide.aux"
   "out/slide.dvi"
